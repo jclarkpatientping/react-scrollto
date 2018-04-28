@@ -21,7 +21,9 @@ class Example extends Component {
   render () {
     return (
       <div>
-        <ScrollTo anchor='first'><button>First</button></ScrollTo>
+        <ScrollTo anchor='first'>
+          <button>First</button>
+        </ScrollTo>
         <p>Lopus rerolum</p>;
         <Anchored anchor='first'>First</Anchored>;
       </div>
