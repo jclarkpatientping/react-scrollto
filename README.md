@@ -15,12 +15,16 @@ npm install --save react-scrollto
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-scrollto'
+import { Anchored, ScrollTo } from 'react-scrollto'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <div>
+        <ScrollTo anchor='first'><button>First</button></ScrollTo>
+        <p>Lopus rerolum</p>;
+        <Anchored anchor='first'>First</Anchored>;
+      </div>
     )
   }
 }
