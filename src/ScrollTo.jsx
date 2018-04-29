@@ -17,7 +17,7 @@ export const ScrollTo = ({ anchor, children }) => (
 
 ScrollTo.propTypes = {
   anchor: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired
+  children: PropTypes.oneOfType([PropTypes.node, PropTypes.string, PropTypes.number]).isRequired
 }
 
 export default ScrollTo;
