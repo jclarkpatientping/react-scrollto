@@ -1,5 +1,5 @@
 {
-  "name": "react-scrollto",
+  "name": "react-scrollto-animated",
   "version": "1.0.0",
   "description": "Animated scrolling to anchors",
   "author": "aszabacsi",
@@ -55,5 +55,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "typings": "./dist/index.d.ts"
 }
