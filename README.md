@@ -2,12 +2,12 @@
 
 > Animated scrolling to anchors
 
-[![NPM](https://img.shields.io/npm/v/react-scrollto.svg)](https://www.npmjs.com/package/react-scrollto) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-scrollto-animated.svg)](https://www.npmjs.com/package/react-scrollto-animated) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-scrollto
+npm install --save react-scrollto-animated
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save react-scrollto
 ```jsx
 import React, { Component } from 'react'
 
-import { Anchored, ScrollTo } from 'react-scrollto'
+import { Anchored, ScrollTo } from 'react-scrollto-animated'
 
 class Example extends Component {
   render () {
